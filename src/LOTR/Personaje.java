@@ -19,6 +19,7 @@ public class Personaje {
      * @param nombre Nombre del personaje.
      * @param raza Raza del personaje.
      * @param clase Tipo de clase del personaje.
+     * @param edad Edad del personaje.
      */
     public Personaje(String nombre, String raza, String clase,int edad) {
         this.nombre = nombre;
@@ -30,7 +31,7 @@ public class Personaje {
 
     /**
      * Muestra los datos del personaje
-     * @return nombre, raza y clase
+     * @return nombre, raza, clase y edad
      */
     public void mostrarDatos(){
         System.out.println("Nombre: "+nombre);
